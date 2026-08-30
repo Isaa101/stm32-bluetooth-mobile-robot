@@ -1,20 +1,27 @@
 # STM32 Bluetooth Mobile Robot
 
-![Robot](media/robot.jpg)
+![Robot hardware](media/robot.jpeg)
 
 A two-wheel mobile robot built around an STM32L152 microcontroller, combining Bluetooth teleoperation, ultrasonic ranging, motor control and proximity feedback on physical hardware.
 
 ## Demo
 
-The robot can be remotely controlled from a mobile device using five commands:
+### Bluetooth teleoperation
 
-- Forward
-- Backward
-- Left
-- Right
-- Stop
+![Bluetooth teleoperation demo](media/moving.gif)
 
-[Watch the full hardware demo](media/demo.mp4)
+The robot receives commands from a mobile phone over Bluetooth and supports forward, backward, left, right and stop commands.
+
+### Ultrasonic proximity feedback
+
+![Ultrasonic proximity feedback](media/testing.gif)
+
+The ultrasonic sensor measures obstacle distance while the robot is operating. The buzzer changes between no sound, intermittent sound and continuous sound depending on proximity.
+
+### Full demo
+
+[Watch the full demo video](media/demo.mp4)
+
 
 ## System Overview
 
